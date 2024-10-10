@@ -1,0 +1,104 @@
+.dashboard {
+    display: flex;
+    gap: 20px; /* Space between the cards */
+    flex-wrap: wrap; /* Allows wrapping to the next line if the container is too narrow */
+}
+
+.dashboard .chart {
+    flex: 1; /* Flexibly grow to fill the container */
+    min-width: 450px; /* Minimum width for each card */
+    max-width: 400px; /* Maximum width for each card */
+    background-color: #f9f9f9; /* Background color of the card */
+    border: 1px solid #ddd; /* Border of the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for a slight elevation effect */
+    position: relative;
+    bottom:400px;
+    left:200px;
+}
+
+.cards-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100%;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+   display: flex;
+    gap: 20px; /* Space between the cards */
+    flex-wrap: wrap; /* Allows wrapping to the next line if the container is too narrow */
+}
+.card:first-child {
+    border-left: 7px solid #246dec;
+}
+
+
+.card:nth-child(2) {
+    border-left: 7px solid #cc3c43;
+}
+
+.card:nth-child(3) {
+    border-left: 7px solid #FFAE42;
+}
+
+.card:nth-child(4) {
+    border-left: 7px solid  #367952;
+}
+
+.card > span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.dashboard-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.clickable-status {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.cardse {
+    width: 35%; /* Adjust card width as needed */
+    margin: 10px; /* Adjust margin between cards */
+    float: right; /* Align cards side by side */
+    left:220px;
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+    top: 760px;
+    position: absolute;
+}
+
+
+.cardse-body {
+    padding: 20px; /* Adjust padding inside the card body */
+    background-color: white; /* Set card body background color to white */
+    border-radius: 0 0 10px 10px; /* Rounded corners for the bottom of the card body */
+}
+.cardses {
+    width: 35%; /* Adjust card width as needed */
+    margin: 10px; /* Adjust margin between cards */
+    float: right; /* Align cards side by side */
+    right:300px;
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+    top: 760px;
+    position: absolute;
+}
+
+
+.cardses-body {
+    padding: 20px; /* Adjust padding inside the card body */
+    background-color: white; /* Set card body background color to white */
+    border-radius: 0 0 10px 10px; /* Rounded corners for the bottom of the card body */
+}

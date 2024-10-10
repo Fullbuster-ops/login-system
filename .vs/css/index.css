@@ -1,0 +1,171 @@
+body {
+    background: #0000FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo {
+    background-repeat: no-repeat;
+    border-radius: 229px;
+    border: 1px solid #000000;
+    width: 229px;
+    height: 229px;
+}
+
+.C_Logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 5px;
+    mix-blend-mode: screen;
+    position: relative; 
+}
+
+.prime {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.title-container {
+    float: left;
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+    width: 42%;
+    height:2px;
+    
+}
+h1 {
+    font-family: 'Lexend Mega';
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.asset-container  {
+    color: #fff;
+    font-size: 100px;
+    font-style: normal;
+    width: auto;
+    height: 170px
+}
+h2 {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.welcome-container {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-family: 'Lexend Mega';
+    font-weight: 400;
+    line-height: 24px;
+    width: auto;
+    height: 100px;
+    margin-top: 15px;
+}
+h3 {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    font-size:15px;
+    width: 100%;
+    padding: 20px;
+    margin: 17px auto;
+    margin-block: 17px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login-button {
+    background-color: #ff6a00;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-button {
+    background-color:#0000FF;
+    font-family:Roboto;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: underline;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+
+
+a {
+    float: right;
+    background: none;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-block-end: 20px;
+    border: none;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+    a:hover {
+        opacity: .7;
+}
+

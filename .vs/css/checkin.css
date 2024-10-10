@@ -1,0 +1,188 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 90px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+        "sidebar header header header"
+        "sidebar main main main";
+    height: 100vh;
+}
+
+
+
+.header {
+    grid-area: header;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.edit-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px; /* Add space between the buttons */
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+.header-right {
+    grid-area: header;
+    height: 40px;
+    display: flex;
+    position: relative;
+    right: 10px;
+}
+
+    .header-right a {
+        grid-area: header;
+        height: 40px;
+        display: flex;
+        position: relative;
+    }
+
+
+
+
+
+
+/* Card */
+.card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px; /* Added margin for spacing */
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    text-align: left;
+}
+
+/* Row and Columns */
+.row {
+    margin: 0;
+}
+
+.col-lg-10, .col-md-10, .col-sm-8, .col-xs-6 {
+    padding: 5px;
+}
+
+.col-lg-2, .col-md-2, .col-sm-4, .col-xs-6 {
+    text-align: right;
+    padding: 5px;
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-10, .col-md-10, .col-sm-8, .col-xs-6 {
+        padding: 0;
+    }
+}
+
+/* Container */
+.container {
+    grid-area: header;
+    max-width: 200%;
+    padding-top: 20px; /* Adjusted padding */
+    margin: 0 auto;
+    position: absolute;
+   left: 200px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+    .table thead {
+        background-color: #f2f2f2;
+    }
+
+    .table a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+/* MDC Data Table Styles (Assuming this is an external library) */
+#datatableid .mdc-data-table__cell {
+      padding: 15px 30px 15px 15px; /* Adjust padding as needed for your content */
+    text-align: center; /* Center-align the text */
+    border: 1px solid #ccc; /* Add a border for separation */
+}
+
+#datatableid .mdc-data-table__header-cell {
+    font-weight: bold; /* Make header cells bold, optional */
+    background-color: #f0f0f0; /* Light background color for header cells */
+}
+
+#datatableid .mdc-data-table__header-cell,
+#datatableid .mdc-data-table__cell {
+    width: auto; /* Let columns adjust to content */
+}
+
+    #datatableid .mdc-data-table__header-cell:first-child,
+    #datatableid .mdc-data-table__cell:first-child {
+        width: 15%; /* Fixed width for the first column, adjust as needed */
+    }
+
+
+
+#datatableid .mdc-data-table__header-row {
+    background-color: #a19f9f;
+   
+}
+#print-button {
+    background-color: #007bff; /* Button background color */
+    text-align: center;
+    left: 20px;
+    bottom: 5px;
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    font-size: 14px; /* Font size */
+    width: 75px; /* Increase the width */
+    height: 40px; /* Increase the height */
+    position: relative;
+}
+
+
+    #print-button:hover {
+        background-color: #0056b3; /* Button background color on hover */
+    }

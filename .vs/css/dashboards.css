@@ -1,0 +1,35 @@
+
+
+.data-container {
+    grid-area: header;
+    max-width: 50%;
+    padding-top: 10px 20px;
+    margin: 0 auto;
+    visibility: hidden;
+    position: relative;
+}
+
+/* Table Styles */
+.table {
+    width: 10%;
+    table-layout: fixed;
+}
+
+    .table thead {
+        background-color: #f2f2f2;
+    }
+
+    .table a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+/* MDC Data Table Styles (Assuming this is an external library) */
+#datatableid .mdc-data-table__cell {
+    padding: 15px 30px 15px 15px;
+}
+
+#datatableid .mdc-data-table__header-row {
+    background-color: #a19f9f;
+}
+

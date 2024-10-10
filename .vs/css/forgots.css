@@ -1,0 +1,50 @@
+/* Apply some basic styles to the container */
+.container {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #0000FF;
+}
+
+/* Style the page header */
+.page-header {
+    background-color: #0000FF;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the form labels */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Style the form inputs */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    /* Style the submit button on hover */
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
